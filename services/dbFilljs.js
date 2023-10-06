@@ -1,0 +1,12 @@
+const bancoSchema = require('../schemas/bancoSchema')
+
+bancoSchema.create({name:'Banco do Brasil', anual_interest_rate:6, max_installments:36})
+bancoSchema.create({name:'Banco do BrasilCaixa Econômica Federal', anual_interest_rate:12, max_installments:60})
+bancoSchema.create({name:'Bradesco', anual_interest_rate:15, max_installments:48})
+bancoSchema.create({name:'Itaú', anual_interest_rate:18, max_installments:24})
+bancoSchema.create({name:'Santander', anual_interest_rate:20, max_installments:48})
+bancoSchema.create({name:'Sicoob', anual_interest_rate:10, max_installments:72})
+bancoSchema.create({name:'Inter', anual_interest_rate:9, max_installments:60})
+bancoSchema.create({name:'Original', anual_interest_rate:16, max_installments:36})
+bancoSchema.create({name:'Nubank', anual_interest_rate:19, max_installments:24})
+bancoSchema.create({name:'Picpay', anual_interest_rate:24, max_installments:12})
