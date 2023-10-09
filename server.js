@@ -1,22 +1,15 @@
 const express = require('express')
 const routes = require('./routes/routes')
-
-(async () => {
-    const database = require('./schemas/db');
-    const Banco = require('./schemas/bancoSchema');
- 
-    try {
-        const resultado = await database.sync();
-        console.log(resultado);
-    } catch (error) {
-        console.log(error);
-    }
-})();
+const db = require('./schemas/db')
 
 
 const app = express()
-app.use(routes)
 app.use(express.json())
+app.use(routes)
+app.use(express.urlencoded({extended:true}))
+
+
+db.sync()
 
 app.listen(3000, ()=>{
     console.log('Listening on port 3000')
