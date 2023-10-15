@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/**/
+
+:root {
+    --color-one: #20C982;
+    --color-two: #fff;
+}
+/**/
+body{
+    display: flex;
+    background-color: var(--color-one);
+}
+/**/
+.principal{
+    background-color: var(--color-one);
+}
+/**/
+.principal-cabecalho{
+
+}
+/**/
+.logo-branca {
+    position: absolute;
+    top: 0;
+    left: 280px;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+
+/**/
+.div-mae{
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+    
+    margin-top: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
+
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    background-color: var(--color-two);
+
+}
+
+/**/
+.div-carro,
+.div-inputs {
+    flex: 1;
+    padding: 0; 
+}
+.div-inputs{
+    
+}
+/**/
+
+.logo-verde{
+    top: 0;
+    left: 100px;
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 210px;
+}
+
+/**/
+h2{
+    margin-left: 210px;
+    margin-top: 32px;
+    font-size: 40px;
+    text-align: justify;
+}
+/**/
+.div-textinho{
+    margin-left: 210px;
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: justify;
+}
+/**/
+.div-textinho2{
+    /* margin-right: 82px; */
+    margin-left: 260px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+
+/**/
+.div-cor-verde{
+    color: var(--color-one);
+}
+/**/
+.carro{
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 50px;
+}

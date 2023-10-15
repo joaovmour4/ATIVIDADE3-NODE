@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/**/
+
+:root {
+    --color-one: #20C982;
+    --color-two: #fff;
+    --color-three: #ccc;
+}
+
+
+.valor {
+    position: relative;
+    width: 150px;
+    margin-left: 260px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.valor label {
+    position: absolute;
+    top: -10px; 
+    left: 10px;
+    font-size: 16px;
+    color: var(--color-one);
+    background-color: var(--color-two); 
+    padding: 0 5px;
+}
+
+.valor input {
+    width: 100%;
+    padding: 5.5px;
+    font-size: 16px;
+    background-clip: content-box; 
+    border-radius: 5px;
+}
+
+
+/*---------------------------------------*/
+
+.input-container {
+    margin: 20px;
+}
+
+.select-container {
+    margin-top: 10px;
+    margin-left: 240px;
+}
+
+.select-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.select-container select {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid var(--color-three);
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+
+/*----------------------------------------*/
+
+
+.botao {
+    margin-top: 10px;
+    margin-left: 260px;
+    padding: 10px;
+    background-color: var(--color-one);
+    color: var(--color-two);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
