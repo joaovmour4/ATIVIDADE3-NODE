@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../ATIVIDADE3-NODE/front/CSS/styles.css">
+    <link rel="stylesheet" href="../ATIVIDADE3-NODE/front/CSS/banco-parcela.css">
+    <title>Finance</title>
+</head>
+<body>
+    <main class="principal">
+        <header class="principal-cabecalho">
+            <img class="logo-branca" src="./images/logo-branca.png" alt="aqui tem a logo finace com cor branca">
+        </header>
+    </main>
+    <div class="div-mae">
+        <!---->
+        <div class="div-carro">
+            <img class="logo-verde" src="./images/logo-verde.png" alt="">
+            <h2>Simule o seu <br><a class="div-cor-verde">financiamento</a>.</h2>
+            <p class="div-textinho">Escolha as melhores condições para<br> o financiamento do seu veículo.</p>
+            <img class="carro" src="./images/carro.png" alt="aqui tem a imagem do carro">
+        </div>
+        <div class="div-inputs">
+            <p class="div-textinho2">Preencha os campos e simule<br> o seu financiamento.</p>
+            <!---->
+            <div class="valor">
+                <label for="meuInput">Valor</label>
+                <input type="text" id="meuInput">
+            </div>
+            <!---->
+            <div class="select-container">
+                <select id="bancos" onchange="selectBank()">
+                    <option value="" disabled selected>Escolha o seu banco</option>
+                    <option value="Nubank">Nubank</option>
+                    <option value="Inter">Inter</option>
+                    <option value="Neon">Neon</option>
+                </select>
+            </div>
+            <div class="select-container">
+                <select id="parcelas" onchange="selectParcelas()">
+                    <option value="" disabled selected>Escolha o número de parcelas</option>
+                    <option value="1">1x</option>
+                    <option value="2">2x</option>
+                    <option value="3">3x</option>
+                </select>
+            </div>
+            
+            <!---->
+            <button class="botao">Simular financiamento</button>
+        </div>
+    </div>
+
+    <script src="../ATIVIDADE3-NODE/front/JavaScript/main.js"></script>
+</body>
+</html>
